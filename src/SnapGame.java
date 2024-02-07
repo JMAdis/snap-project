@@ -9,7 +9,7 @@ public class SnapGame {
         // Main game loop
         while (true) {
             System.out.println("Welcome to Snap Game!");
-            System.out.println("Press Y and hit enter to start the game. Good luck! :) ");
+            System.out.println("Enter Y to start the game. Good luck! :) ");
 
             // Getting user input to start the game
             String startGameInput = scanner.nextLine().trim().toLowerCase();

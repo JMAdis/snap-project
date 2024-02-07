@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c56776e6-12f9-4425-9944-cef115ee689c" name="Changes" comment="clarifying instructions for user">
+    <list default="true" id="c56776e6-12f9-4425-9944-cef115ee689c" name="Changes" comment="removed excess files and added colors to suits">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Card.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Card.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Deck.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Deck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SnapGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SnapGame.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +96,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707270427049</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="removed excess files and added colors to suits">
+      <option name="closed" value="true" />
+      <created>1707320128482</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1707320128484</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -105,6 +112,7 @@
     <MESSAGE value="working snap game with functionality for a 2 player game" />
     <MESSAGE value="adding comments to the code for clarity" />
     <MESSAGE value="clarifying instructions for user" />
-    <option name="LAST_COMMIT_MESSAGE" value="clarifying instructions for user" />
+    <MESSAGE value="removed excess files and added colors to suits" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed excess files and added colors to suits" />
   </component>
 </project>
