@@ -6,6 +6,10 @@ public class Deck {
     // List to store the cards in the deck
     private List<Card> cards;
 
+    public static final String RED = "\u001B[31m";
+    public static final String RESET = "\u001B[0m";
+    public static final String BLUE = "\u001B[34m";
+
     public Deck() {
         cards = createDeck();
         shuffleDeck();
@@ -14,7 +18,7 @@ public class Deck {
     // Method to create a standard deck of 52 cards
     private List<Card> createDeck() {
         List<Card> deck = new ArrayList<>();
-        String[] suits = {"♥", "♦", "♣", "♠"};
+        String[] suits = { RED + "♥" + RESET, RED + "♦" + RESET, BLUE + "♣" + RESET, BLUE + "♠" + RESET};
         String[] ranks = {"A", "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K"};
 
         // Creating cards for each combination of suit and rank
