@@ -7,6 +7,7 @@ public class Card {
         this.suit = suit;
     }
 
+    // Getters to retrieve the rank and suit of the card
     public String getRank() {
         return rank;
     }
@@ -15,6 +16,7 @@ public class Card {
         return suit;
     }
 
+    // Overriding the toString method to represent the card as a string
     @Override
     public String toString() {
         return rank + suit;
