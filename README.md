@@ -1,7 +1,7 @@
 # snap-project
 
 ## Snap Game
-This Java console application simulates the classic Snap card game between two players. Players compete to spot matching cards and shout "SNAP!" to claim the match.
+This Java console application simulates the classic Snap card game between two players. The game is split into two halves, with player one playing the first 13 rounds and player 2 playing the other half. The game then tallies the amount of snaps both players have achieved and assigns a winner.
 
 ## Table of Contents
 <li>Game Overview</li>
